@@ -1,0 +1,1 @@
+geth --identity "yz5zys" --datadir . --networkid 67834502 --maxpeers 1 --nodiscover --syncmode full --gcmode "archive" --vmdebug --http --http.corsdomain="package://6fd22d6fe5549ad4c4d8fd3ca0b7816b.mod" --http.api web3,eth,debug,personal,net --allow-insecure-unlock

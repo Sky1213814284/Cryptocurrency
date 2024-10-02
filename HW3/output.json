@@ -1,0 +1,59 @@
+{
+    "blocks": [
+        {
+            "height": 0,
+            "version": 1,
+            "previous_hash": "000000007da75864998b222da93fc061191ec3cb0063d42b55ee864ee8d82b60",
+            "merkle_hash": "c5997d1cad40afec154aa99b8988e97b1f113d8076357a77572455574765a533",
+            "timestamp": 1260761289,
+            "nbits": "1d00ffff",
+            "nonce": 107962823,
+            "txn_count": 2,
+            "transactions": [
+                {
+                    "version": 1,
+                    "txn_in_count": 1,
+                    "txn_inputs": [
+                        {
+                            "utxo_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+                            "index": 4294967295,
+                            "input_script_size": 7,
+                            "input_script_bytes": "04ffff001d0104",
+                            "sequence": 4294967295
+                        }
+                    ],
+                    "txn_outputs": [
+                        {
+                            "satochis": 5000000000,
+                            "output_script_size": 67,
+                            "output_script_bytes": "41048a443ad3ad7210741a1e3e5a4d035cefff091af16c2a792b99284b9551361490f5b75b96c0841fdf80d182a1e5ee97932e8ec086942a27f8ec83d2c0761f444dac"
+                        }
+                    ],
+                    "lock_time": 0
+                },
+                {
+                    "version": 0,
+                    "txn_in_count": 1,
+                    "txn_inputs": [
+                        {
+                            "utxo_hash": "877f21702fc8a22e5c9a22ff128adb91ec14699799054076e3040140fd000000",
+                            "index": 2462307501,
+                            "input_script_size": 233,
+                            "input_script_bytes": "69000000004a493046022100ea875c8316de4083905a233ddc51fffd10b5cd136623dd57b9c7539ca0dc0986022100dbf79278c96454cab2970cb3f971cddb70c4d83d8d74a87b9216cecfe3d1127601ffffffff01b9c131932bcd45f1d8d0748c2794b37fadbc458e3a34504fde719c913f5543000000004a493046022100fd1bb16d96ad1511e303adeab859f6f9e74efe89e5024373283baef34064541f022100d77269f58a7a2bfb3c8713acc790e3469cb71a881cadc2bec69035c1ddd232b101ffffffff02448b236dac81e9c1d627e472d5793f21634e23ccb3dac3400afd783d11b7330000",
+                            "sequence": 1212743680
+                        }
+                    ],
+                    "txn_outputs": [
+                        {
+                            "satochis": 6188700818705809989,
+                            "output_script_size": 38,
+                            "output_script_bytes": "86ddde42a193d50fdac4595fb848b17653c0c847c5466a8e70827202201fe713d5efdb19b3e7"
+                        }
+                    ],
+                    "lock_time": 3432135918
+                }
+            ]
+        }
+    ],
+    "height": 0
+}

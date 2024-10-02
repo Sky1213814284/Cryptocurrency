@@ -1,0 +1,1 @@
+geth --identity "yz5zys" --datadir . --networkid 67834502 --maxpeers 1 --nodiscover --syncmode full --gcmode "archive" --vmdebug --http --http.corsdomain="https://remix.ethereum.org" --http.api web3,eth,debug,personal,net --allow-insecure-unlock

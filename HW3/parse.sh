@@ -1,0 +1,1 @@
+python3 btcscript.py parse $1

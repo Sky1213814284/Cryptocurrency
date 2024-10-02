@@ -1,0 +1,68 @@
+{
+	"id": "30edc2288df1b443a718ccd284c128c4",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.17",
+	"solcLongVersion": "0.8.17+commit.8df45f5f",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"HW6/NFTManager.sol": {
+				"content": "// SPDX-License-Identifier: GPL-3.0-or-later\n//\"Yufei Zhou yz5zys\"\npragma solidity ^0.8.0;"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"sources": {
+			"HW6/NFTManager.sol": {
+				"ast": {
+					"absolutePath": "HW6/NFTManager.sol",
+					"exportedSymbols": {},
+					"id": 2,
+					"license": "GPL-3.0-or-later",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "67:23:0"
+						}
+					],
+					"src": "67:23:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
